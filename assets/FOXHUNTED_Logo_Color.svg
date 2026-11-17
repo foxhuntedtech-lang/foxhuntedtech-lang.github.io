@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320">
+  <!-- ISOTIPO: Zorro táctico dentro de retícula de mira -->
+  <g id="foxhunted-mark" transform="translate(36, 26)">
+    <!-- Brackets de mira (crosshair) -->
+    <path d="M 0 54 L 0 0 L 54 0" fill="none" stroke="#151517" stroke-width="10"/>
+    <path d="M 194 0 L 248 0 L 248 54" fill="none" stroke="#151517" stroke-width="10"/>
+    <path d="M 0 214 L 0 268 L 54 268" fill="none" stroke="#151517" stroke-width="10"/>
+    <path d="M 194 268 L 248 268 L 248 214" fill="none" stroke="#151517" stroke-width="10"/>
+
+    <!-- Cruz de puntería sutil -->
+    <line x1="124" y1="8" x2="124" y2="34" stroke="#E61C7A" stroke-width="6"/>
+    <line x1="124" y1="234" x2="124" y2="260" stroke="#E61C7A" stroke-width="6"/>
+
+    <!-- Zorro angular estilizado (perfil/3-cuartos agresivo) -->
+    <polygon points="44,44 102,88 146,88 204,44 194,132 162,190 124,230 86,190 54,132" fill="#151517"/>
+    <!-- Ojos cyber en diagonal -->
+    <polygon points="68,122 110,136 102,150 64,138" fill="#E61C7A"/>
+    <polygon points="180,122 138,136 146,150 184,138" fill="#00B8D9"/>
+    <!-- Corte inferior de hocico -->
+    <polygon points="104,186 144,186 124,212" fill="#F4D019"/>
+  </g>
+
+  <!-- WORDMARK: FOXHUNTED -->
+  <g id="foxhunted-wordmark" transform="translate(320, 54)">
+    <text x="4" y="18" font-family="Consolas, 'Courier New', monospace" font-size="18" font-weight="bold" letter-spacing="5" fill="#E61C7A">[ UNIT_09 // CYBER_TECH ]</text>
+    <text x="0" y="122" font-family="Impact, 'Arial Black', sans-serif" font-size="108" letter-spacing="4" fill="#151517">FOX<tspan fill="#E61C7A">HUNTED</tspan></text>
+    <!-- Barra de corte industrial -->
+    <rect x="0" y="142" width="668" height="10" fill="#151517"/>
+    <rect x="0" y="142" width="175" height="10" fill="#00B8D9"/>
+    <text x="2" y="186" font-family="Consolas, 'Courier New', monospace" font-size="21" font-weight="bold" letter-spacing="5" fill="#151517">CUSTOM HARDWARE &amp; REPAIR</text>
+  </g>
+</svg>
